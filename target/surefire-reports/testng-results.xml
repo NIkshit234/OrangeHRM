@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-10-07T03:32:28 IST" name="Suite" finished-at="2025-10-07T03:33:21 IST" duration-ms="52667">
+    <groups>
+    </groups>
+    <test started-at="2025-10-07T03:32:28 IST" name="Test" finished-at="2025-10-07T03:33:21 IST" duration-ms="52667">
+      <class name="TestCases.DashboardTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.DashboardTests@795cd85e]" started-at="2025-10-07T03:32:35 IST" name="setUp" finished-at="2025-10-07T03:32:40 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDashboardIsDisplayed()[pri:1, instance:TestCases.DashboardTests@795cd85e]" started-at="2025-10-07T03:32:40 IST" name="verifyDashboardIsDisplayed" finished-at="2025-10-07T03:32:42 IST" duration-ms="1804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardIsDisplayed -->
+        <test-method signature="verifyDashboardTitle()[pri:2, instance:TestCases.DashboardTests@795cd85e]" started-at="2025-10-07T03:32:42 IST" name="verifyDashboardTitle" finished-at="2025-10-07T03:32:42 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardTitle -->
+        <test-method signature="verifyDashboardUrl()[pri:3, instance:TestCases.DashboardTests@795cd85e]" started-at="2025-10-07T03:32:42 IST" name="verifyDashboardUrl" finished-at="2025-10-07T03:32:42 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDashboardUrl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.DashboardTests@795cd85e]" started-at="2025-10-07T03:32:42 IST" name="tearDown" finished-at="2025-10-07T03:32:42 IST" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.DashboardTests -->
+      <class name="TestCases.SideSearchTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.SideSearchTests@f5ac9e4]" started-at="2025-10-07T03:33:07 IST" name="setUp" finished-at="2025-10-07T03:33:13 IST" duration-ms="5198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchAdminMenu()[pri:1, instance:TestCases.SideSearchTests@f5ac9e4]" started-at="2025-10-07T03:33:13 IST" name="searchAdminMenu" finished-at="2025-10-07T03:33:17 IST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAdminMenu -->
+        <test-method signature="searchPIMMenu()[pri:2, instance:TestCases.SideSearchTests@f5ac9e4]" started-at="2025-10-07T03:33:17 IST" name="searchPIMMenu" finished-at="2025-10-07T03:33:19 IST" duration-ms="2051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchPIMMenu -->
+        <test-method signature="searchLeaveMenu()[pri:3, instance:TestCases.SideSearchTests@f5ac9e4]" started-at="2025-10-07T03:33:19 IST" name="searchLeaveMenu" finished-at="2025-10-07T03:33:21 IST" duration-ms="1992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchLeaveMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.SideSearchTests@f5ac9e4]" started-at="2025-10-07T03:33:21 IST" name="tearDown" finished-at="2025-10-07T03:33:21 IST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SideSearchTests -->
+      <class name="TestCases.LoginTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.LoginTests@708f5957]" started-at="2025-10-07T03:32:28 IST" name="setUp" finished-at="2025-10-07T03:32:34 IST" duration-ms="5273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitle()[pri:1, instance:TestCases.LoginTests@708f5957]" started-at="2025-10-07T03:32:34 IST" name="verifyTitle" finished-at="2025-10-07T03:32:34 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="testLogin()[pri:2, instance:TestCases.LoginTests@708f5957]" started-at="2025-10-07T03:32:34 IST" name="testLogin" finished-at="2025-10-07T03:32:34 IST" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:TestCases.LoginTests@708f5957]" started-at="2025-10-07T03:32:34 IST" name="tearDownTest" finished-at="2025-10-07T03:32:35 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.LoginTests@708f5957]" started-at="2025-10-07T03:32:35 IST" name="tearDown" finished-at="2025-10-07T03:32:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.LoginTests -->
+      <class name="TestCases.SideMenuTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:32:42 IST" name="setUp" finished-at="2025-10-07T03:32:48 IST" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickAdminMenu()[pri:1, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:32:48 IST" name="clickAdminMenu" finished-at="2025-10-07T03:32:51 IST" duration-ms="3095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAdminMenu -->
+        <test-method signature="clickPIMMenu()[pri:2, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:32:51 IST" name="clickPIMMenu" finished-at="2025-10-07T03:32:52 IST" duration-ms="1382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPIMMenu -->
+        <test-method signature="clickLeaveMenu()[pri:3, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:32:52 IST" name="clickLeaveMenu" finished-at="2025-10-07T03:32:54 IST" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickLeaveMenu -->
+        <test-method signature="clickTimeMenu()[pri:4, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:32:54 IST" name="clickTimeMenu" finished-at="2025-10-07T03:32:55 IST" duration-ms="1483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTimeMenu -->
+        <test-method signature="clickRecruitmentMenu()[pri:5, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:32:55 IST" name="clickRecruitmentMenu" finished-at="2025-10-07T03:32:56 IST" duration-ms="1357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickRecruitmentMenu -->
+        <test-method signature="clickMyInfoMenu()[pri:6, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:32:56 IST" name="clickMyInfoMenu" finished-at="2025-10-07T03:32:59 IST" duration-ms="2595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMyInfoMenu -->
+        <test-method signature="clickPerformanceMenu()[pri:7, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:32:59 IST" name="clickPerformanceMenu" finished-at="2025-10-07T03:33:00 IST" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPerformanceMenu -->
+        <test-method signature="clickDashboardMenu()[pri:8, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:33:00 IST" name="clickDashboardMenu" finished-at="2025-10-07T03:33:01 IST" duration-ms="1167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDashboardMenu -->
+        <test-method signature="clickDirectoryMenu()[pri:9, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:33:01 IST" name="clickDirectoryMenu" finished-at="2025-10-07T03:33:02 IST" duration-ms="1129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickDirectoryMenu -->
+        <test-method signature="clickMaintenanceMenu()[pri:10, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:33:02 IST" name="clickMaintenanceMenu" finished-at="2025-10-07T03:33:04 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickMaintenanceMenu -->
+        <test-method signature="clickCancel()[pri:11, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:33:04 IST" name="clickCancel" finished-at="2025-10-07T03:33:05 IST" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCancel -->
+        <test-method signature="clickClaimMenu()[pri:12, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:33:05 IST" name="clickClaimMenu" finished-at="2025-10-07T03:33:06 IST" duration-ms="1336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickClaimMenu -->
+        <test-method signature="clickBuzzMenu()[pri:13, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:33:06 IST" name="clickBuzzMenu" finished-at="2025-10-07T03:33:07 IST" duration-ms="1113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBuzzMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.SideMenuTests@59fd97a8]" started-at="2025-10-07T03:33:07 IST" name="tearDown" finished-at="2025-10-07T03:33:07 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.SideMenuTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestCases.DashboardTests">
+        <methods>
+          <include name="verifyDashboardIsDisplayed"/>
+          <include name="verifyDashboardUrl"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyDashboardTitle"/>
+        </methods>
+      </class> <!-- TestCases.DashboardTests -->
+      <class name="TestCases.SideSearchTests">
+        <methods>
+          <include name="setUp"/>
+          <include name="searchLeaveMenu"/>
+          <include name="searchAdminMenu"/>
+          <include name="tearDown"/>
+          <include name="searchPIMMenu"/>
+        </methods>
+      </class> <!-- TestCases.SideSearchTests -->
+      <class name="TestCases.SideMenuTests">
+        <methods>
+          <include name="clickDirectoryMenu"/>
+          <include name="setUp"/>
+          <include name="clickMaintenanceMenu"/>
+          <include name="clickMyInfoMenu"/>
+          <include name="clickClaimMenu"/>
+          <include name="clickDashboardMenu"/>
+          <include name="clickLeaveMenu"/>
+          <include name="clickRecruitmentMenu"/>
+          <include name="tearDown"/>
+          <include name="clickPerformanceMenu"/>
+          <include name="clickCancel"/>
+          <include name="clickTimeMenu"/>
+          <include name="clickPIMMenu"/>
+          <include name="clickBuzzMenu"/>
+          <include name="clickAdminMenu"/>
+        </methods>
+      </class> <!-- TestCases.SideMenuTests -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 07 01:31:33 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>47 seconds (47329 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickLeaveMenu()'><b>clickLeaveMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.LoginTests.Title()'><b>Title</b><br>Test class: TestCases.LoginTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.LoginTests@7d20d0b</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickRecruitmentMenu()'><b>clickRecruitmentMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.DashboardTests.verifyDashboardUrl()'><b>verifyDashboardUrl</b><br>Test class: TestCases.DashboardTests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.DashboardTests@55b0dcab</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickMyInfoMenu()'><b>clickMyInfoMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>2</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickClaimMenu()'><b>clickClaimMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideSearchTests.searchAdminMenu()'><b>searchAdminMenu</b><br>Test class: TestCases.SideSearchTests</td>
+<td></td>
+<td>3</td>
+<td>TestCases.SideSearchTests@2df3b89c</td></tr>
+<tr>
+<td title='TestCases.SideSearchTests.searchPIMMenu()'><b>searchPIMMenu</b><br>Test class: TestCases.SideSearchTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideSearchTests@2df3b89c</td></tr>
+<tr>
+<td title='TestCases.DashboardTests.verifyDashboardTitle()'><b>verifyDashboardTitle</b><br>Test class: TestCases.DashboardTests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.DashboardTests@55b0dcab</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickAdminMenu()'><b>clickAdminMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>2</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.LoginTests.testLogin()'><b>testLogin</b><br>Test class: TestCases.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.LoginTests@7d20d0b</td></tr>
+<tr>
+<td title='TestCases.DashboardTests.verifyDashboardIsDisplayed()'><b>verifyDashboardIsDisplayed</b><br>Test class: TestCases.DashboardTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.DashboardTests@55b0dcab</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickDashboardMenu()'><b>clickDashboardMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickTimeMenu()'><b>clickTimeMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickPerformanceMenu()'><b>clickPerformanceMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideSearchTests.searchLeaveMenu()'><b>searchLeaveMenu</b><br>Test class: TestCases.SideSearchTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideSearchTests@2df3b89c</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickCancel()'><b>clickCancel</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickMaintenanceMenu()'><b>clickMaintenanceMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickBuzzMenu()'><b>clickBuzzMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>0</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickPIMMenu()'><b>clickPIMMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+<tr>
+<td title='TestCases.SideMenuTests.clickDirectoryMenu()'><b>clickDirectoryMenu</b><br>Test class: TestCases.SideMenuTests</td>
+<td></td>
+<td>1</td>
+<td>TestCases.SideMenuTests@38afe297</td></tr>
+</table><p>
+</body>
+</html>

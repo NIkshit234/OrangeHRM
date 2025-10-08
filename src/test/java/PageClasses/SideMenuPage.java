@@ -1,0 +1,132 @@
+package PageClasses;
+
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class SideMenuPage {
+
+    WebDriver driver;
+
+    public SideMenuPage(WebDriver driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+    }
+
+    // ===== Locators for side menu =====
+    @FindBy(xpath = "//span[text()='Admin']")
+    WebElement adminMenu;
+
+    @FindBy(xpath = "//span[text()='PIM']")
+    WebElement pimMenu;
+
+    @FindBy(xpath = "//span[text()='Leave']")
+    WebElement leaveMenu;
+
+    @FindBy(xpath = "//span[text()='Time']")
+    WebElement timeMenu;
+
+    @FindBy(xpath = "//span[text()='Recruitment']")
+    WebElement recruitmentMenu;
+
+    @FindBy(xpath = "//span[text()='My Info']")
+    WebElement myInfoMenu;
+
+    @FindBy(xpath = "//span[text()='Performance']")
+    WebElement performanceMenu;
+
+    @FindBy(xpath = "//span[text()='Dashboard']")
+    WebElement dashboardMenu;
+
+    @FindBy(xpath = "//span[text()='Directory']")
+    WebElement directoryMenu;
+
+    @FindBy(xpath = "//span[text()='Maintenance']")
+    WebElement maintenanceMenu;
+    @FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[1]/form/div[4]/button[1]")
+    WebElement clickCancel;
+    
+
+    @FindBy(xpath = "//span[text()='Claim']")
+    WebElement claimMenu;
+
+    @FindBy(xpath = "//span[text()='Buzz']")
+    WebElement buzzMenu;
+
+    // ===== Actions =====
+    public void clickAdmin() {
+        adminMenu.click();
+    }
+
+    public void clickPIM() {
+        pimMenu.click();
+    }
+
+    public void clickLeave() {
+        leaveMenu.click();
+    }
+
+    public void clickTime() {
+        timeMenu.click();
+    }
+
+    public void clickRecruitment() {
+        recruitmentMenu.click();
+    }
+
+    public void clickMyInfo() {
+        myInfoMenu.click();
+    }
+
+    public void clickPerformance() {
+        performanceMenu.click();
+    }
+
+    public void clickDashboard() {
+        dashboardMenu.click();
+    }
+
+    public void clickDirectory() {
+        directoryMenu.click();
+    }
+
+    public void clickMaintenance() {
+        maintenanceMenu.click();
+//        clickcancel.click();
+    }
+//    public void clickcancel() {
+//       
+//       clickCancel.click();
+    
+
+    public void clickClaim() {
+        claimMenu.click();
+    }
+
+    public void clickBuzz() {
+        buzzMenu.click();
+    }
+
+    // ===== Utility =====
+    public String getCurrentPageTitle() {
+        return driver.getTitle();
+    }
+
+    public String getCurrentPageUrl() {
+        return driver.getCurrentUrl();
+    }
+
+	public void clickcancel() {
+		
+		clickCancel.click();
+		
+	}
+
+	
+		
+	}
+
+
+

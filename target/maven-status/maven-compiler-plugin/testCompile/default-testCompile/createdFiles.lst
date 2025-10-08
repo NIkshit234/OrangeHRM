@@ -1,0 +1,13 @@
+TestCases\SideSearchTests.class
+TestCases\SideMenuTests.class
+TestCases\DashboardTests.class
+PageClasses\Dashboard.class
+TestCases\PIMTests.class
+PageClasses\LoginPage.class
+Utilities\ExcelUtils.class
+PageClasses\PIMPage.class
+PageClasses\SideSearchPage.class
+PageClasses\SideMenuPage.class
+TestCases\LoginTests.class
+TestBase\BaseClass.class
+Utilities\ExtentReportManager.class
